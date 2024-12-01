@@ -70,6 +70,9 @@ button:hover{
   animation:border-animada 1.2s ease-in-out;
   border:solid 1px #00FF39;
 }
+.btn_ativo{
+  border:solid 1px #00FF39;
+}
 @keyframes border-animada{
   0%{
     border-color:white;
