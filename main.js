@@ -20,11 +20,11 @@ feramentas()
 
 const sistema=(px,py)=>{
   ctx.fillStyle="red"
-  ctx.arc(px - canvas.offsetLeft,py - canvas.offsetTop,1,1,360,false)
+  ctx.fillRect(px - canvas.offsetLeft,py - canvas.offsetTop,10,10)
   ctx.fill()
 }
 
-canvas.addEventListener("mousemove",(evt)=>{
+canvas.addEventListener("mousedown",(evt)=>{
   sistema(evt.clientX,evt.clientY)
 })
 
